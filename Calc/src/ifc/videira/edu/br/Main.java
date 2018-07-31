@@ -31,7 +31,16 @@ public class Main {
                 System.out.printf("\nO resultado da soma é: %d\n", operacao);  
                 break;  
             }  
-	    
+			if (opcao == 2) {
+  	 		  Scanner input1 = new Scanner(System.in);  
+	    		System.out.println("Qual o primeiro numero: ");
+	    		 num1 = input1.nextInt();
+	    		System.out.println("Qual o segundo numero: ");
+	    		 num2 = input1.nextInt();
+	    			int operacao = c.sub(num1, num2);
+	    			System.out.println(operacao);
+	    		break;
+	    		}
 	    }
 	  }
 }
