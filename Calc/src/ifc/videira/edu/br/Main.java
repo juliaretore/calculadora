@@ -62,6 +62,10 @@ public class Main {
 	    			System.out.println(operacao);
 	    		break;
 	    		}
+			else{
+	    		System.out.println("????");
+	    		break;
+	    		}
 			
 	    }
 	  }
